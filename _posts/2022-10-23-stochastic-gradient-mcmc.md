@@ -18,4 +18,6 @@ $$dx = f( \mathbf{x} )dt + \sqrt{ 2D (\mathbf{x}) } d W_t$$
 
 where $f(x) = -[ D(\mathbf{x}) + Q(\mathbf{x}) ]\nabla H(\mathbf{x}) + \Gamma(\mathbf{x}) $, $\Gamma(\mathbf{x}) = -\sum_{j} \frac{\partial}{\partial x_j}( D_{ij}(\mathbf{x}) + Q_{ij}(\mathbf{x}) )$
 
+Requirement: $D(\mathbf{x})$ positive definite, 
+
 
