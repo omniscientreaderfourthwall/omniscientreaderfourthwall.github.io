@@ -1,1 +1,10 @@
+---
+title:  "Stochastic Gradient MCMC"
+mathjax: true
+layout: post
+---
 
+
+Main Question: How do we sample from a given probability density function ?
+
+The existing method include: 1.
