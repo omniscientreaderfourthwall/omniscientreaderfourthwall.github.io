@@ -13,6 +13,9 @@ Note: Importance Sampling is not a sampling method
 
 I will introduce a method which can sample from a certain family of probability density functions.
 
-For a probability density function, $p(\mathbf{x})\propto exp(H(\mathbf{x}))$
+For a probability density function, $p(\mathbf{x})\propto exp(H(\mathbf{x}))$. We can sample its corresponding random variable $X$ through a stochastic differential equation: 
+$$ dx = f(\mathbf{x})dt + \sqrt{2D(\mathbf{x})}dW_t $$
+
+where $f(x) = -[ D(\mathbf{x}) + Q(\mathbf{x}) ]\nabla H(\mathbf{x}) + \Gamma(\mathbf{x}) $
 
 
