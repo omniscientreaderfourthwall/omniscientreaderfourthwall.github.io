@@ -18,7 +18,7 @@ The two are related in this way:
 
 Given a prior belief that a probability distribution function is $p(\theta)$ and the observations $x$ have a likelihood $p(x|\theta)$, then the posterior probability is defined as $p(\theta|x) = \frac{p(x|\theta)}{p(x)}p(\theta)$,
 
-where $p_X(x) is the normalizing constant and is caculated as $\p_X(x) = \int p(x|\theta)p(\theta)d\theta$
+where $p_X(x)$ is the normalizing constant and is caculated as $\p_X(x) = \int p(x|\theta)p(\theta)d\theta$
 
 
 
